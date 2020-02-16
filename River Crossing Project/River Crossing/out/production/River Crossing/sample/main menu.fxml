@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="403.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+    <children>
+        <ImageView fitHeight="428.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../illustration-river-cross-mountains-beautiful-riverside-landscape-scenery_2963-15.jpg" />
+            </image></ImageView>
+        <Text fill="#2e2f2d" layoutX="116.0" layoutY="39.0" stroke="#c3c617" strokeType="OUTSIDE" text="Welcome to River Crossing Puzzle" textAlignment="CENTER" underline="true" wrappingWidth="374.2265625">
+            <font>
+                <Font size="23.0" />
+            </font></Text>
+        <Button fx:id="newGameButton" layoutX="218.0" layoutY="57.0" mnemonicParsing="false" onAction="#newGameClick" prefHeight="78.0" prefWidth="170.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="New Game">
+            <effect>
+                <Blend />
+            </effect>
+            <font>
+                <Font size="24.0" />
+            </font></Button>
+        <Button fx:id="loadGameButton" layoutX="213.0" layoutY="193.0" mnemonicParsing="false" onAction="#loadGameClick" prefHeight="78.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Load Game">
+            <effect>
+                <Blend />
+            </effect>
+            <font>
+                <Font size="24.0" />
+            </font></Button>
+
+
+    </children>
+</AnchorPane>

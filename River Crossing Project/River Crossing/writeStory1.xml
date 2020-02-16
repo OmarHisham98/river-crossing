@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Game>  //root
+    <story>1</story>
+    <moves>2</moves>
+    <raftpos>true</raftpos>
+    <onleft>
+        <Farmer>1</Farmer>
+        <Wolf>1</Wolf>
+        <Plant>1</Plant>
+    </onleft>
+    <onright>
+        <Goat>1</Goat>
+    </onright>
+</Game>

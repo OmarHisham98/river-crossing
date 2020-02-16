@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="River Crossing:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/River_Crossing_jar</output-path>
+    <root id="archive" name="River Crossing.jar">
+      <element id="module-output" name="River Crossing" />
+    </root>
+  </artifact>
+</component>

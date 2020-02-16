@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Game>
+ <Story>1</Story>
+ <Moves>1</Moves>
+ <raftPosition>Right</raftPosition>
+ <onLeft>
+  <Character>plant</Character>
+  <Character>wolf</Character>
+ </onLeft>
+ <onRight>
+  <Character>farmer</Character>
+  <Character>goat</Character>
+ </onRight>
+</Game>
